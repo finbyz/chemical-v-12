@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include chemical *.css
+recursive-include chemical *.csv
+recursive-include chemical *.html
+recursive-include chemical *.ico
+recursive-include chemical *.js
+recursive-include chemical *.json
+recursive-include chemical *.md
+recursive-include chemical *.png
+recursive-include chemical *.py
+recursive-include chemical *.svg
+recursive-include chemical *.txt
+recursive-exclude chemical *.pyc
